@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<h1>Greeting Generator</h1>
+	<h1>Greetings</h1>
 	<?php
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$name = $_POST["name"];
