@@ -1,18 +1,19 @@
-# php-technical-presentation
+# PHP Database Example
 
-<h2> There are 3 requirements to use PHP: </h2>
-  <ol>
-    <li> A computer with Windows, Mac, or Linux operating system. </li>
-    <li> A web server such as Apache or Nginx installed on your computer. </li>
-    <li> A text editor such as Notepad++, Sublime Text, or Visual Studio Code. </li>
-  </ol>
-</p>
+This is a simple example of how to use PHP to interact with a database. The example allows you to enter messages into a database, view a list of messages that have been added, and delete messages from the database.
 
-<h2> To Download PHP:</h2>
-  <ol>
-    <li> Visit the official PHP website https://windows.php.net/download/ and download the latest version of PHP for your operating system </li>
-    <li> Once the download is complete, double-click the setup file to start the installation process. </li>
-    <li> Follow the instructions provided by the setup wizard to install PHP on your computer. </li>
-    <li> Once the installation is complete, restart your computer to apply the changes. </li>
-  </ol>
-</p>
+## Prerequisites
+
+Before you can run this example, you'll need the following software installed on your system:
+
+- PHP (version 7.0 or higher)
+- A web server (such as Apache or Nginx)
+- MySQL or MariaDB
+
+## Getting Started
+
+To get started with these examples, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Start your web server and make sure that PHP is enabled.
+3. Navigate to the desired file in your web browser to view the example.

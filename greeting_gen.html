@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greeting Generator</title>
+</head>
+<body>
+	<h1>Greeting Generator</h1>
+	<script>
+		function onSubmit(event) {
+			event.preventDefault();
+			const nameInput = document.querySelector("#name");
+			const name = nameInput.value;
+			const greeting = document.createElement("p");
+			greeting.textContent = `Hello, ${name}!`;
+			document.body.appendChild(greeting);
+		}
+	</script>
+	<form onsubmit="onSubmit(event)">
+		<label for="name">Enter your name:</label>
+		<input type="text" name="name" id="name" required>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
